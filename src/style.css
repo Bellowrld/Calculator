@@ -22,7 +22,9 @@ body {
   min-height: 100vh;
   grid-template-columns: repeat(4, 85px);
   grid-template-rows: minmax(100px, auto) repeat(5, 85px);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: #000;
+  border: 1px solid #fff;
   
 }
 
@@ -32,14 +34,17 @@ body {
   border: none;
   margin: 0.9px;
   outline: none;
-  background: rgba(231, 64, 64, 0.842);
+  background: #A9AFD1;
+  /* background: rgba(231, 64, 64, 0.842); */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
+  border-radius: 8px;
 }
 
 button:hover {
   background-color: #24d3149c;
+  color: #fff;
 }
 
 .span-2 {
@@ -49,17 +54,23 @@ button:hover {
 
 .input-screen {
   grid-column: 1 /-1;
-  background-color: rgba(7, 7, 6, 0.514);
+  background-color: #A9AFD1;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   justify-content: space-around;
   padding: 10px;
+  margin-bottom: 5px;
   word-wrap: break-word;
   word-break: break-all;
   font-size: 35px;
-  color: #fff;
-  border: none; 
+  color:  #000;
+  /* border: none;  */
+  /* border: 1px solid #fff; */
+  border-radius: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  
 }
 
 
